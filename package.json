@@ -1,0 +1,21 @@
+{
+  "name": "jb-theme",
+  "displayName": "jb-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "jb-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jb-theme-color-theme.json"
+      }
+    ]
+  }
+}
