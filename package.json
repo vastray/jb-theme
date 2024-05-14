@@ -3,6 +3,10 @@
   "displayName": "jb-theme",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vastray/jb-theme"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },
