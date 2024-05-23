@@ -48,6 +48,8 @@
     "statusBar.background": "#292929",
     "statusBar.foreground": "#828387",
     "statusBar.border": "#3D3D3D",
+    "statusBar.debuggingBackground": "#4f2814",
+    "statusBar.noFolderBackground": "#370e41",
 
     "panel.border": "#3D3D3D",
 
@@ -183,6 +185,7 @@
     },
 
     // Python
+
     {
       "name": "Python Decorator",
       "scope": [
@@ -192,6 +195,15 @@
       ],
       "settings": {
         "foreground": "#D5B778"
+      }
+    },
+    {
+      "name": "Python logical",
+      "scope": [
+        "source.python keyword.operator.logical.python",
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
       }
     },
     {
@@ -227,6 +239,7 @@
     },
 
     // CSS SCSS
+
     {
       "name": "CSS Selector",
       "scope": [
@@ -261,6 +274,7 @@
     },
 
     // JSON
+
     {
       "name": "JSON key",
       "scope": [
@@ -272,6 +286,7 @@
     },
 
     // HTML
+
     {
       "name": "HTML Tag",
       "scope": [
@@ -284,16 +299,29 @@
     },
 
     // JS
+
     {
       "name": "JS function",
       "scope": [
-        "source.js meta.function-call entity.name.function"
+        "source.js entity.name.function.js"
       ],
       "settings": {
         "foreground": "#56A8F5"
       }
     },
+
+    {
+      "name": "JS This",
+      "scope": [
+        "source.js variable.language.this.js"
+      ],
+      "settings": {
+        "foreground": "#CF8E6D"
+      }
+    },
+
     // VUE
+
     {
       "name": "",
       "scope": [
