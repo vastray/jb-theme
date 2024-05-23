@@ -2,6 +2,7 @@
   "name": "jb-theme",
   "colors": {
     "foreground": "#bfbfbf",
+    "focusBorder": "#007fd480",
 
     "activityBar.background": "#292929",
     "activityBar.border": "#2f2f2f",
