@@ -125,6 +125,15 @@
       }
     },
     {
+     "name": "Function",
+     "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
+      }
+    },
+    {
       "name": "Constant, Tag Attribute, Embedded",
       "scope": [
         "constant.language",
@@ -231,13 +240,6 @@
         "foreground": "#a75b9c"
       }
     },
-    {
-      "name": "Python Function",
-      "scope": ["entity.name.function.python"],
-      "settings": {
-        "foreground": "#56A8F5"
-      }
-    },
 
     // CSS SCSS
 
@@ -291,8 +293,9 @@
     {
       "name": "HTML Tag",
       "scope": [
-        "text.html entity.name.tag.html",
-        "text.html punctuation.definition.tag"
+        "entity.name.tag",
+        "punctuation.definition.tag",
+        "support.class"
       ],
       "settings": {
         "foreground": "#D5B778"
@@ -300,16 +303,6 @@
     },
 
     // JS
-
-    {
-      "name": "JS function",
-      "scope": [
-        "source.js entity.name.function.js"
-      ],
-      "settings": {
-        "foreground": "#56A8F5"
-      }
-    },
 
     {
       "name": "JS This",
@@ -321,18 +314,60 @@
       }
     },
 
-    // VUE
+    // Markdown
 
     {
-      "name": "",
+      "name": "MD Heading",
       "scope": [
-        "source.vue entity.name.tag.script.html.vue",
-        "source.vue entity.name.tag.template.html.vue",
-        "source.vue entity.name.tag.style.html.vue",
-        "source.vue punctuation.definition.tag"
+        "markup.heading",
       ],
       "settings": {
-        "foreground": "#D5B778"
+        "foreground": "#6ca1dd",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "MD punctuation",
+      "scope": [
+        "punctuation.definition.heading",
+        "punctuation.definition.bold",
+        "punctuation.definition.italic",
+        "punctuation.definition.list.begin",
+        "punctuation.definition.markdown",
+        "punctuation.definition.raw",
+        "punctuation.definition.quote.begin",
+        "punctuation.definition.link",
+        "punctuation.definition.metadata",
+      ],
+      "settings": {
+        "foreground": "#C77DBB"
+      }
+    },
+    {
+      "name": "MD Bold",
+      "scope": [
+        "markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      } 
+    },
+    {
+      "name": "MD Italic",
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "MD Raw",
+      "scope": [
+        "markup.inline.raw"
+      ],
+      "settings": {
+        "foreground": "#5DB37E"
       }
     }
   ]
