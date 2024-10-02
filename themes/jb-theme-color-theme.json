@@ -329,15 +329,15 @@
     {
       "name": "MD punctuation",
       "scope": [
-        "punctuation.definition.heading",
-        "punctuation.definition.bold",
-        "punctuation.definition.italic",
-        "punctuation.definition.list.begin",
-        "punctuation.definition.markdown",
-        "punctuation.definition.raw",
-        "punctuation.definition.quote.begin",
-        "punctuation.definition.link",
-        "punctuation.definition.metadata",
+        "markup punctuation.definition.heading",
+        "markup punctuation.definition.bold",
+        "markup punctuation.definition.italic",
+        "markup punctuation.definition.list.begin",
+        "markup punctuation.definition.markdown",
+        "markup punctuation.definition.raw",
+        "markup punctuation.definition.quote.begin",
+        "markup punctuation.definition.link",
+        "markup punctuation.definition.metadata",
       ],
       "settings": {
         "foreground": "#C77DBB"
