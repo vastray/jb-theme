@@ -31,6 +31,10 @@
     "editorBracketMatch.background": "#474747",
     "editorBracketMatch.border": "#474747",
 
+    "editorError.foreground": "#ce4d5a",
+    "editorWarning.foreground": "#a5863f",
+    "editorInfo.foreground": "#3085b3",
+
     "editorSuggestWidget.background": "#292929",
     "editorSuggestWidget.border": "#3D3D3D",
     "editorHoverWidget.background": "#292929",
@@ -299,6 +303,17 @@
       ],
       "settings": {
         "foreground": "#D5B778"
+      }
+    },
+    
+    {
+      "name": "Custom Tag",
+      "scope": [
+        "meta.tag.custom entity.name.tag.html",
+        "source.vue meta.tag.other.unrecognized entity.name.tag.html",
+      ],
+      "settings": {
+        "foreground": "#2FBAA3",
       }
     },
 
