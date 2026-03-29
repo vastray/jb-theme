@@ -2,7 +2,7 @@
   "name": "jb-theme",
   "displayName": "jb-theme",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/vastray/jb-theme"
@@ -18,7 +18,7 @@
       {
         "label": "jb-theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/jb-theme-color-theme.json"
+        "path": "./themes/jb-theme.json"
       }
     ]
   }

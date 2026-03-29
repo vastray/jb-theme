@@ -49,6 +49,12 @@
     "diffEditor.insertedTextBackground": "#5db37e3a",
     "diffEditor.removedTextBackground": "#ff0c343a",
 
+    "gitDecoration.addedResourceForeground": "#5db37e",
+    "gitDecoration.modifiedResourceForeground": "#56a8f5",
+    "gitDecoration.stageModifiedResourceForeground": "#56a8f5",
+    "gitDecoration.renamedResourceForeground": "#56a8f5",
+    "gitDecoration.untrackedResourceForeground": "#5db37ec2",
+
     "activityBarBadge.background": "#292929",
     "statusBar.background": "#292929",
     "statusBar.foreground": "#828387",
@@ -129,10 +135,8 @@
       }
     },
     {
-     "name": "Function",
-     "scope": [
-        "entity.name.function"
-      ],
+      "name": "Function",
+      "scope": ["entity.name.function"],
       "settings": {
         "foreground": "#56A8F5"
       }
@@ -213,9 +217,7 @@
     },
     {
       "name": "Python logical",
-      "scope": [
-        "source.python keyword.operator.logical.python",
-      ],
+      "scope": ["source.python keyword.operator.logical.python"],
       "settings": {
         "foreground": "#CF8E6D"
       }
@@ -261,22 +263,20 @@
 
     {
       "name": "SCSS variable",
-      "scope": [
-        "source.css variable.scss",
-      ],
+      "scope": ["source.css variable.scss"],
       "settings": {
         "foreground": "#6ca1dd"
       }
     },
-  
+
     {
       "name": "CSS const",
       "scope": [
         "source.css support.constant.property-value.css",
-        "source.css keyword.other",
+        "source.css keyword.other"
       ],
       "settings": {
-        "foreground": "#5DB37E",
+        "foreground": "#5DB37E"
       }
     },
 
@@ -305,15 +305,16 @@
         "foreground": "#D5B778"
       }
     },
-    
+
     {
       "name": "Custom Tag",
       "scope": [
         "meta.tag.custom entity.name.tag.html",
         "source.vue meta.tag.other.unrecognized entity.name.tag.html",
+        "meta.tag.other.unrecognized.html.derivative entity.name.tag.html"
       ],
       "settings": {
-        "foreground": "#2FBAA3",
+        "foreground": "#2FBAA3"
       }
     },
 
@@ -321,9 +322,7 @@
 
     {
       "name": "JS This",
-      "scope": [
-        "source.js variable.language.this.js"
-      ],
+      "scope": ["source.js variable.language.this.js"],
       "settings": {
         "foreground": "#CF8E6D"
       }
@@ -333,9 +332,7 @@
 
     {
       "name": "MD Heading",
-      "scope": [
-        "markup.heading",
-      ],
+      "scope": ["markup.heading"],
       "settings": {
         "foreground": "#6ca1dd",
         "fontStyle": "bold"
@@ -352,7 +349,7 @@
         "markup punctuation.definition.raw",
         "markup punctuation.definition.quote.begin",
         "markup punctuation.definition.link",
-        "markup punctuation.definition.metadata",
+        "markup punctuation.definition.metadata"
       ],
       "settings": {
         "foreground": "#C77DBB"
@@ -360,27 +357,21 @@
     },
     {
       "name": "MD Bold",
-      "scope": [
-        "markup.bold"
-      ],
+      "scope": ["markup.bold"],
       "settings": {
         "fontStyle": "bold"
-      } 
+      }
     },
     {
       "name": "MD Italic",
-      "scope": [
-        "markup.italic"
-      ],
+      "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "MD Raw",
-      "scope": [
-        "markup.inline.raw"
-      ],
+      "scope": ["markup.inline.raw"],
       "settings": {
         "foreground": "#5DB37E"
       }
